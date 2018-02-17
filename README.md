@@ -31,5 +31,5 @@ Remember to install [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.
 ## Get correct PATH for macOS
 Add or remove directories as deemed necessary and execute the following command ***just ONCE***. Running this command multiple times will elongate `$fish_user_paths` due to the self-reference in the last argument.
 ```fish
-set -U fish_user_paths /usr/local/bin /usr/bin /bin /usr/sbin /sbin /opt/X11/bin /usr/texbin /usr/local/texlive/2017/bin/x86_64-darwin /Users/wrk/.rvm/bin /opt/local/bin /opt/local/sbin /Users/Shared/texdir/scripts/ $fish_user_paths
+set -U fish_user_paths /usr/local/bin /usr/bin /bin /usr/sbin /sbin /opt/X11/bin /usr/local/texlive/2017/bin/x86_64-darwin /opt/local/bin /opt/local/sbin /Users/Shared/texdir/scripts/ $fish_user_paths
 ```
