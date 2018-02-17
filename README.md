@@ -12,7 +12,7 @@ This command adds my list (aka repository) of custom packages:
 ```fish
 omf repo add https://github.com/kfkonrad/fish-packages
 ```
-This command sets up my prompt and install all packages, including my custom package bonfishconf.
+This command sets up my prompt and installs all packages, including my custom package bonfishconf.
 ```fish
 omf install bongnoster colorman fish-spec fuck gh grc last-working-dir bonfishconf
 ```
