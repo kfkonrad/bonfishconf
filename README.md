@@ -28,6 +28,12 @@ omf install bongnoster colorman fuck gh grc last-working-dir bonfishconf
 ```
 Remember to install [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) so the fish package grc can function properly!
 
+## Get the colors right
+This command sets the colors according to the 'Dracula' theme available within `fish_config`. Great for systems without a suitable browser (e.g. servers).
+```fish
+curl -L https://raw.githubusercontent.com/kfkonrad/bonfishconf/master/set-colors.fish  | fish
+```
+
 ## Get correct PATH for macOS
 Add or remove directories as deemed necessary and execute the following command ***just ONCE***. Running this command multiple times will elongate `$fish_user_paths` due to the self-reference in the last argument.
 ```fish
