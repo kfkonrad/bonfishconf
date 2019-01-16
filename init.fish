@@ -3,7 +3,6 @@ set -g theme_display_user yes
 set -g theme_hide_hostname no
 alias down='sudo shutdown -h now'
 alias fucking=sudo
-alias history='fc -l 1'
 alias l='ls -lapshG'
 alias la='ls -lApsh'
 alias ll='ls -ps1'
