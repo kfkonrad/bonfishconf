@@ -6,7 +6,9 @@ alias fucking=sudo
 alias l='ls -lapshG'
 alias la='ls -lApsh'
 alias ll='ls -ps1'
-alias ld='ls -dp1'
+function ld
+    grep '/$' (ls -dp1 $argv | psub) --colour=never
+end
 alias md='mkdir -p'
 alias nap='sudo shutdown -s now >/dev/null'
 alias pc='echo -n "Cleaning MacPorts..."; sudo port -N clean --all installed | sed "s/--->  Cleaning//" | tr -ds \n " "'
