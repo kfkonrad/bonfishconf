@@ -11,7 +11,12 @@ function ld
 end
 alias md='mkdir -p'
 alias nap='sudo shutdown -s now >/dev/null'
-alias pc='echo -n "Cleaning MacPorts..."; sudo port -N clean --all installed | sed "s/--->  Cleaning//" | tr -ds \n " "'
+function pc
+    echo -n "Cleaning MacPorts..."
+    sudo port -N clean --all installed $argv \
+      | sed "s/--->  Cleaning//" \
+      | tr -ds \n " "
+end
 alias pi='sudo port -N install '
 alias please=sudo
 alias po=popd
