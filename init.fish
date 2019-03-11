@@ -16,6 +16,7 @@ function pc
     sudo port -N clean --all installed $argv \
       | sed "s/--->  Cleaning//" \
       | tr -ds \n " "
+    echo
 end
 alias pi='sudo port -N install '
 alias please=sudo
@@ -29,7 +30,7 @@ alias rd=rmdir
 alias suno='sudo nano'
 alias t=todotxt
 alias texupdate='sudo tlmgr update --self --all --reinstall-forcibly-removed'
-alias portupdate='pup; and pc'
+alias portupdate='pup; pc'
 alias brewupdate='brew update; and brew upgrade; and brew cask upgrade'
 alias npmupdate='sudo npm i -g npm'
 alias sysupdate='texupdate; npmupdate; brewupdate; portupdate'
