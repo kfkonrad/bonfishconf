@@ -5,7 +5,7 @@ alias down='sudo shutdown -h now'
 alias fucking=sudo
 alias l='ls -lapshG'
 alias la='ls -lApsh'
-alias ll='ls -ps1'
+alias ll='command ls -Gp'
 function ld
     grep '/$' (ls -dp1 $argv | psub) --colour=never
 end
