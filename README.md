@@ -24,7 +24,7 @@ omf repo add https://github.com/kfkonrad/fish-packages
 ```
 This command sets up my prompt and installs all packages, including my custom package bonfishconf.
 ```fish
-omf install bonfather fuck grc last-working-dir bonfishconf kit
+omf install bonfather fuck grc last-working-dir bonfishconf kit https://github.com/evanlucas/fish-kubectl-completions.git
 ```
 Remember to install [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) so the fish package grc can function properly!
 
