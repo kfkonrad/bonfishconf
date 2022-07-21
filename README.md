@@ -24,9 +24,9 @@ omf repo add https://github.com/kfkonrad/fish-packages
 ```
 This command sets up my prompt and installs all packages, including my custom package bonfishconf.
 ```fish
-omf install bonfather fuck grc last-working-dir bonfishconf kit https://github.com/evanlucas/fish-kubectl-completions.git
+omf install bonfather fuck last-working-dir bonfishconf kit https://github.com/evanlucas/fish-kubectl-completions.git
 ```
-Remember to install [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) so the fish package grc can function properly!
+Remember to install [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) and to add `source /etc/grc.fish` to your fish config for colorized output
 
 ## Get the colors right
 This command sets the colors according to the 'Dracula' theme available within `fish_config`. Great for systems without a suitable browser (e.g. servers).
