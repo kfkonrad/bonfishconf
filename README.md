@@ -24,7 +24,7 @@ omf repo add https://github.com/kfkonrad/fish-packages
 ```
 This command sets up my prompt and installs all packages, including my custom package bonfishconf.
 ```fish
-omf install bonfather fuck last-working-dir bonfishconf kit https://github.com/evanlucas/fish-kubectl-completions.git
+omf install bonfather fuck last-working-dir bonfishconf kit nvm https://github.com/evanlucas/fish-kubectl-completions.git https://github.com/lgathy/google-cloud-sdk-fish-completion.git
 ```
 Remember to install [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) and to add `source /etc/grc.fish` to your fish config for colorized output
 
